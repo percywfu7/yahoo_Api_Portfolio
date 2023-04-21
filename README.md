@@ -1,0 +1,5 @@
+# Automated-potfolio-performance-
+Generating automated portfolio performance measures using yahoo finance api and internal holdings data
+This script generates the total nominal return and benchmarks it againts the sp500 for any time period. It will also generate and rank the  return by sector as well as generating the information and returns on the best/worst performing securities in a portfolio given a time period. 
+This script uses the yahoo finance api to get up to date prices. I initially wanted to use a bloomberg api to get our portfolio holdings updated information and make everything fully automatic and slef updating. But I found out that bloomberg terminal does not provide an api for remote accesses. So, I ended using a static local holdings csv file where I would update periodically. However, if you have access to a decent api that provides you with your potfolio's holding positions, you could still use this script by only changing how the the holdings data is imported. 
+# yahoo_Api_Portfolio
